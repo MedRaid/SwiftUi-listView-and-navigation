@@ -27,8 +27,9 @@ struct ContentView : View {
                     SecondContentView(usr: usr)){
                     usersCell(user: usr)
                 }
-                }
-            }.navigationBarTitle(Text("Dynamic list"))
+                }.navigationBarTitle(Text("Dynamic list"))
+            }
+        
         }
 }
 
