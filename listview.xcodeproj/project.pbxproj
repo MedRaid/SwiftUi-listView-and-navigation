@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD77AC622BA381600059E71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD77AC522BA381600059E71 /* AppDelegate.swift */; };
+		CAD77AC822BA381600059E71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD77AC722BA381600059E71 /* SceneDelegate.swift */; };
+		CAD77ACA22BA381600059E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD77AC922BA381600059E71 /* ContentView.swift */; };
+		CAD77ACC22BA381C00059E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD77ACB22BA381C00059E71 /* Assets.xcassets */; };
+		CAD77ACF22BA381C00059E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD77ACE22BA381C00059E71 /* Preview Assets.xcassets */; };
+		CAD77AD222BA381C00059E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD77AD022BA381C00059E71 /* LaunchScreen.storyboard */; };
+		CAD77ADB22BA7B1E00059E71 /* mainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD77AD922BA7B1E00059E71 /* mainController.swift */; };
+		CAD77ADC22BA7B1F00059E71 /* mainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD77ADA22BA7B1E00059E71 /* mainController.xib */; };
+		CAD77ADE22BB920D00059E71 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD77ADD22BB920D00059E71 /* SecondContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAD77AC222BA381600059E71 /* listview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = listview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD77AC522BA381600059E71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAD77AC722BA381600059E71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAD77AC922BA381600059E71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAD77ACB22BA381C00059E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD77ACE22BA381C00059E71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAD77AD122BA381C00059E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAD77AD322BA381C00059E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD77AD922BA7B1E00059E71 /* mainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainController.swift; sourceTree = "<group>"; };
+		CAD77ADA22BA7B1E00059E71 /* mainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainController.xib; sourceTree = "<group>"; };
+		CAD77ADD22BB920D00059E71 /* SecondContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD77ABF22BA381600059E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD77AB922BA381500059E71 = {
+			isa = PBXGroup;
+			children = (
+				CAD77AC422BA381600059E71 /* listview */,
+				CAD77AC322BA381600059E71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD77AC322BA381600059E71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD77AC222BA381600059E71 /* listview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD77AC422BA381600059E71 /* listview */ = {
+			isa = PBXGroup;
+			children = (
+				CAD77AC522BA381600059E71 /* AppDelegate.swift */,
+				CAD77AC722BA381600059E71 /* SceneDelegate.swift */,
+				CAD77AC922BA381600059E71 /* ContentView.swift */,
+				CAD77ADD22BB920D00059E71 /* SecondContentView.swift */,
+				CAD77ACB22BA381C00059E71 /* Assets.xcassets */,
+				CAD77AD022BA381C00059E71 /* LaunchScreen.storyboard */,
+				CAD77AD322BA381C00059E71 /* Info.plist */,
+				CAD77ACD22BA381C00059E71 /* Preview Content */,
+				CAD77AD922BA7B1E00059E71 /* mainController.swift */,
+				CAD77ADA22BA7B1E00059E71 /* mainController.xib */,
+			);
+			path = listview;
+			sourceTree = "<group>";
+		};
+		CAD77ACD22BA381C00059E71 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAD77ACE22BA381C00059E71 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD77AC122BA381600059E71 /* listview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD77AD622BA381C00059E71 /* Build configuration list for PBXNativeTarget "listview" */;
+			buildPhases = (
+				CAD77ABE22BA381600059E71 /* Sources */,
+				CAD77ABF22BA381600059E71 /* Frameworks */,
+				CAD77AC022BA381600059E71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = listview;
+			productName = listview;
+			productReference = CAD77AC222BA381600059E71 /* listview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD77ABA22BA381500059E71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = RaidRaddaoui;
+				TargetAttributes = {
+					CAD77AC122BA381600059E71 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = CAD77ABD22BA381500059E71 /* Build configuration list for PBXProject "listview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD77AB922BA381500059E71;
+			productRefGroup = CAD77AC322BA381600059E71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD77AC122BA381600059E71 /* listview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD77AC022BA381600059E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD77ADC22BA7B1F00059E71 /* mainController.xib in Resources */,
+				CAD77AD222BA381C00059E71 /* LaunchScreen.storyboard in Resources */,
+				CAD77ACF22BA381C00059E71 /* Preview Assets.xcassets in Resources */,
+				CAD77ACC22BA381C00059E71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD77ABE22BA381600059E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD77ADB22BA7B1E00059E71 /* mainController.swift in Sources */,
+				CAD77AC622BA381600059E71 /* AppDelegate.swift in Sources */,
+				CAD77ADE22BB920D00059E71 /* SecondContentView.swift in Sources */,
+				CAD77AC822BA381600059E71 /* SceneDelegate.swift in Sources */,
+				CAD77ACA22BA381600059E71 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAD77AD022BA381C00059E71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD77AD122BA381C00059E71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD77AD422BA381C00059E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD77AD522BA381C00059E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD77AD722BA381C00059E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "listview/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = listview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.listview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD77AD822BA381C00059E71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "listview/Preview\\ Content";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = listview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.listview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD77ABD22BA381500059E71 /* Build configuration list for PBXProject "listview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD77AD422BA381C00059E71 /* Debug */,
+				CAD77AD522BA381C00059E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD77AD622BA381C00059E71 /* Build configuration list for PBXNativeTarget "listview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD77AD722BA381C00059E71 /* Debug */,
+				CAD77AD822BA381C00059E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD77ABA22BA381500059E71 /* Project object */;
+}
