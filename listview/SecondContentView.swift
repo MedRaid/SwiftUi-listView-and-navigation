@@ -11,15 +11,18 @@ import SwiftUI
 struct SecondContentView : View {
     let usr: User
     var body: some View {
-        Text(usr.username)
-        //Text(usr)
+       
+        VStack(alignment: .center, spacing: UIScreen.main.bounds.height - 200){
+            HStack{
+                Text(usr.username)
+            }.shadow(color: Color.red, radius: 2, x: 2, y: 2)
+            
+            
+            HStack{
+                NavigationButton(destination: ThirdContentView(text:"my third view text \(usr.message)")){
+                    Text("Btn")
+                }
+            }
+            }
     }
 }
-
-//#if DEBUG
-//struct SecondContentView_Previews : PreviewProvider {
-//    static var previews: some View {
-//        SecondContentView(usr: User)
-//    }
-//}
-//#endif

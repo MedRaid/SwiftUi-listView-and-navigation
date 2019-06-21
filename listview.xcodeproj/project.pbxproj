@@ -16,6 +16,7 @@
 		CAD77ADB22BA7B1E00059E71 /* mainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD77AD922BA7B1E00059E71 /* mainController.swift */; };
 		CAD77ADC22BA7B1F00059E71 /* mainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD77ADA22BA7B1E00059E71 /* mainController.xib */; };
 		CAD77ADE22BB920D00059E71 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD77ADD22BB920D00059E71 /* SecondContentView.swift */; };
+		CAD77AE022BBC74800059E71 /* ThirdContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD77ADF22BBC74800059E71 /* ThirdContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CAD77AD922BA7B1E00059E71 /* mainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainController.swift; sourceTree = "<group>"; };
 		CAD77ADA22BA7B1E00059E71 /* mainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainController.xib; sourceTree = "<group>"; };
 		CAD77ADD22BB920D00059E71 /* SecondContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentView.swift; sourceTree = "<group>"; };
+		CAD77ADF22BBC74800059E71 /* ThirdContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CAD77AC722BA381600059E71 /* SceneDelegate.swift */,
 				CAD77AC922BA381600059E71 /* ContentView.swift */,
 				CAD77ADD22BB920D00059E71 /* SecondContentView.swift */,
+				CAD77ADF22BBC74800059E71 /* ThirdContentView.swift */,
 				CAD77ACB22BA381C00059E71 /* Assets.xcassets */,
 				CAD77AD022BA381C00059E71 /* LaunchScreen.storyboard */,
 				CAD77AD322BA381C00059E71 /* Info.plist */,
@@ -160,6 +163,7 @@
 				CAD77AC622BA381600059E71 /* AppDelegate.swift in Sources */,
 				CAD77ADE22BB920D00059E71 /* SecondContentView.swift in Sources */,
 				CAD77AC822BA381600059E71 /* SceneDelegate.swift in Sources */,
+				CAD77AE022BBC74800059E71 /* ThirdContentView.swift in Sources */,
 				CAD77ACA22BA381600059E71 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
