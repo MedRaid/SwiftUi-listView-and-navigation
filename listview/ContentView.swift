@@ -23,17 +23,24 @@ struct ContentView : View {
     @State var showFavouriteOnly = false
     var body: some View {
         NavigationView{
-            
-//            List(users){ usr in
-//                usersCell(user: usr)
-//
-//                }.navigationBarTitle(Text("Dynamic list"))
-      
-            List{
-                Toggle(isOn: $showFavouriteOnly) {
-                    Text("Show Favourites Only")
+
+            HStack{
+                VStack(alignment: .center){
+                    NavigationButton(destination:
+                   DynamicListView()){
+                        Text("Go to List")
+                    }
                 }
+            }
+             HStack(alignment: .center){
+                    Toggle(isOn: $showFavouriteOnly) {
+                        Text("Show Favourites Only").lineLimit(nil)
+                    }
+            }.padding()
+          
+            List{
                 
+
                 ForEach(self.users){ usr in
                     if self.showFavouriteOnly == false  || self.showFavouriteOnly == true && usr.isFavourite == true {
                         usersCell(user: usr)

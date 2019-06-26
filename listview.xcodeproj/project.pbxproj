@@ -17,6 +17,7 @@
 		CAD77ADC22BA7B1F00059E71 /* mainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD77ADA22BA7B1E00059E71 /* mainController.xib */; };
 		CAD77ADE22BB920D00059E71 /* SecondContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD77ADD22BB920D00059E71 /* SecondContentView.swift */; };
 		CAD77AE022BBC74800059E71 /* ThirdContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD77ADF22BBC74800059E71 /* ThirdContentView.swift */; };
+		CAD77AE222C0C2B100059E71 /* DynamicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD77AE122C0C2B000059E71 /* DynamicListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CAD77ADA22BA7B1E00059E71 /* mainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mainController.xib; sourceTree = "<group>"; };
 		CAD77ADD22BB920D00059E71 /* SecondContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContentView.swift; sourceTree = "<group>"; };
 		CAD77ADF22BBC74800059E71 /* ThirdContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdContentView.swift; sourceTree = "<group>"; };
+		CAD77AE122C0C2B000059E71 /* DynamicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				CAD77AC922BA381600059E71 /* ContentView.swift */,
 				CAD77ADD22BB920D00059E71 /* SecondContentView.swift */,
 				CAD77ADF22BBC74800059E71 /* ThirdContentView.swift */,
+				CAD77AE122C0C2B000059E71 /* DynamicListView.swift */,
 				CAD77ACB22BA381C00059E71 /* Assets.xcassets */,
 				CAD77AD022BA381C00059E71 /* LaunchScreen.storyboard */,
 				CAD77AD322BA381C00059E71 /* Info.plist */,
@@ -164,6 +167,7 @@
 				CAD77ADE22BB920D00059E71 /* SecondContentView.swift in Sources */,
 				CAD77AC822BA381600059E71 /* SceneDelegate.swift in Sources */,
 				CAD77AE022BBC74800059E71 /* ThirdContentView.swift in Sources */,
+				CAD77AE222C0C2B100059E71 /* DynamicListView.swift in Sources */,
 				CAD77ACA22BA381600059E71 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,8 +306,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "listview/Preview\\ Content";
+				DEVELOPMENT_TEAM = 2QPX84ZM5T;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = listview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +327,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "listview/Preview\\ Content";
+				DEVELOPMENT_TEAM = 2QPX84ZM5T;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = listview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
